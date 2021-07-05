@@ -1,0 +1,3 @@
+﻿  test.c
+D:\VStest\test_7_5\test_7_5\test.c(50,15): warning C4013: “strcmp”未定义；假设外部返回 int
+  test_7_5.vcxproj -> D:\VStest\test_7_5\Debug\test_7_5.exe
