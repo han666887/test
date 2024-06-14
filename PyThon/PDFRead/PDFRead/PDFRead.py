@@ -25,7 +25,7 @@ print(pdf_path)
 
 
 # 读取PDF文件中的所有表格
-tables = camelot.read_pdf(pdf_path, pages='all', flavor='stream')
+tables = camelot.read_pdf(pdf_path, pages='all', flavor='stream',edge_tol=200,strip_text="\n")
 
 
 # 检查解析出的表格数量
